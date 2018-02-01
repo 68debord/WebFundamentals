@@ -1,0 +1,140 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*{
+    margin: auto;
+    padding: 0px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#wrapper{
+	width: 800px;
+	/*padding: 10px;*/
+	height: auto;
+	background-color: pink;
+}
+
+img{
+	vertical-align: top;
+	margin-top: -95px;
+	width: 180px;
+}
+
+.tester {
+	width: auto;
+	height: 250px;
+	border-bottom: 5px solid black;
+	text-align: center;
+}
+
+.tester h1{
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+.tester p{
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.tester button{
+	width: auto;
+	height: 40px;
+	background-color: rgb(0,204,255);
+	border-radius: 10px;
+	font-size: 16px;
+	margin-right: 20px;
+
+}
+#click{
+
+}
+
+#hide{
+
+}
+
+#show{
+
+}
+
+#toggle{
+
+}
+
+#slideDown{
+
+}
+
+#slideUp{
+
+}
+
+#slideToggle{
+
+}
+
+#fadeIn{
+
+}
+
+#fadeOut{
+
+}
+
+#addClass{
+
+}
+
+.orangeBackground{
+	background-color: rgb(239,184,55);
+}
+
+#before{
+
+}
+
+#after{
+
+}
+
+#append{
+
+}
+
+#html{
+
+}
+
+#attr{
+
+}
+
+#val{
+
+}
+
+#val select{
+	margin-right: 30px;
+}
+
+#val h3{
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+#text{
+
+}
+
+#data{
+
+}
+

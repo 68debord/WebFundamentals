@@ -1,0 +1,283 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#wrapper{
+	width: 1000px;
+	/*padding: 10px;*/
+	height: auto;
+}
+
+#wrapper img{
+	width:1000px;
+}
+
+
+#top-bar{
+	height: 60px;
+	background-color: rgb(225,225,225);
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+#top-bar img{
+	height: auto;
+	width: 74px;
+	display: inline-block;
+	border-bottom-left-radius:  10px;
+	border-top-left-radius: 10px;
+}
+
+#top-bar input{
+	vertical-align: top;
+	height: 35px;
+	width: 225px;
+	border-radius: 30px;
+	margin-top: 12px;
+	margin-left: 130px;
+	}
+
+
+#top-bar p{
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	border-right: 2px inset grey;
+	color: black;
+	vertical-align: top;
+	text-align: center;
+	line-height: 60px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+
+#main-image-bar{
+	height: 50px;
+	background-color: rgb(67,67,67);
+	margin-top: -5px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom: 20px;
+}
+
+#main-image-bar p{
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: top;
+	color: rgb(141,193,217);
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 2px inset grey;
+}
+
+.white-text{
+	color: white;
+}
+#mid-content{
+	height: 620px;
+	background-color: rgb(247,247,245);
+	border-radius: 10px;
+	border: 2px inset grey;
+}
+
+#mid-bar{
+	height: 130px;
+		border-bottom: 2px inset grey;
+}
+
+#mid-bar p{
+	vertical-align: top;
+	font-size: 33px;
+	display: inline-block;
+	/*text-align: center;*/
+	line-height: 130px;
+	color: grey;
+	border-right: 2px inset grey;
+	padding-left: 35px;
+	padding-right: 38px;
+
+}
+
+
+
+.browse{
+	color: white;
+	font-size: 25px;
+	background-color: rgb(74,133,171);
+	border-radius: 10px;
+	padding: 10px;
+	padding-left:20px;
+	padding-right: 20px;
+	border-right: none;
+}
+
+#new-content-box{
+	vertical-align: top;
+	width: 245px;
+	height: 450px;
+	display: inline-block;
+	border: 1px inset grey;
+	}
+
+
+#top-nest{
+	height: 100px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#top-nest img{
+	width: 30px;
+	height: auto;
+	display: inline-block;
+}
+
+#top-nest h3{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 8px;
+}
+
+#text-nest{
+	height: 80px;
+	padding-left: 20px;
+}
+
+#image-nest{
+	height: 150px;
+}
+
+#image-nest img{
+	width: 240px;
+}
+
+#button-nest{
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+}
+
+#button-nest button{
+	vertical-align: middle;
+	font-size: 18px;
+	color: white;
+	background-color: rgb(92,174,235);
+	height: 40px;
+	width: 230px;
+	border-radius: 10px;
+}
+
+
+
+
+
+#bot-content{
+	height: 300px;
+	border-bottom: 1px inset grey;
+}
+
+
+#bot-content h4{
+	height:75px;
+	width: 150px;
+	margin-right: 12px;
+
+	display: inline-block;
+	vertical-align: top;
+	line-height: 75px;
+	border-bottom: 1px inset grey;
+}
+
+#bot-content p{
+	
+	width: 150px;
+	margin-right: 8px; 
+
+   display: inline-block;
+	vertical-align: top;
+	line-height: 30px;
+}
+
+#footer{
+	height: 80px;
+	
+}
+
+#footer p{
+	font-size: 12px;
+	display: inline-block;
+	margin-right: 15px;
+	line-height: 80px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#footer a{
+	font-size: 12px;
+	color: rgb(74,133,171);
+	margin-right: 15px;
+}
+
+
+/*Here is the graveyard of my first content boxes. They used less divs but I 
+wasn't able to make the elements align horizontally.
+#content-box{
+	vertical-align:top;
+	width: 245px;
+	height: 450px;
+	display: inline-block;
+	text-align: center;
+	border: 1px inset grey;
+	padding-top: 30px;
+}
+
+#content-box img{
+	width: 40px;
+	display: inline-block;
+}
+
+#content-box h4{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 15px;
+}
+
+
+}
+
+/*#big-image img{
+	width: 202px;
+	height: auto;
+	vertical-align:top;
+}
+
+#blue-button{
+	color: white;
+	background-color: rgb(92,174,235);
+	display: inline-block;
+	
+	line-height:35px;
+	width: 100px
+	
+	padding: 10px:
+	padding-left: 10px;
+	padding-right:30px;
+	border-radius: 10px;
+}*/

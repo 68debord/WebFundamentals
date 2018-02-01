@@ -1,0 +1,16 @@
+cd Desktop
+cd dojo
+mkdir basic_repo
+cd basic_repo
+git init
+touch file1.html
+touch file2.css
+git add . 
+git commit -m “first commit”
+git remote add origin https://github.com/68debord/basic_repo.git
+git push -u origin master
+[edited files]
+git status
+git add .
+git commit -m “edited files”
+git push -u origin master

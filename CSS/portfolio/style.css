@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+	display: inline-block;
+	text-align: left;
+	margin-right: 300px;
+	margin-top:5px;
+}
+h3{
+	display: inline-block;
+	
+}
+
+#wrapper{
+	width: 800px;
+	height: auto;
+	
+}
+
+#header{
+	width: auto;
+	height: 50px;
+	padding-left: 20px;
+	padding-top: 5px;
+
+}
+
+#top{
+	background-color: purple;
+	height: auto;
+	width: auto;
+	padding: 15px;
+}
+
+#photo{
+	display: inline-block;
+	height: 230px;
+	width: auto;
+	border: solid grey 4px;
+	margin-right:15px;
+}
+
+#photo img{
+	width: auto;
+	height: 230px;
+}
+
+#about{
+	display: inline-block;
+	height: 238px;
+	width: 390px;
+	vertical-align: top;
+	background-color: grey;
+}
+
+.bar{
+	background-color:darkgray;
+	height: 45px;
+	width: auto;
+
+}
+
+.bar h3{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#abouttext{
+	background-color: grey;
+	display: inline-block;
+}
+
+p {
+	padding: 5px;
+	font-size: 15px;
+}
+
+a {
+	padding: 5px;
+}
+
+#bottom{	
+	background-color:purple;
+	height: auto;
+	width: auto;
+	padding: 5px;
+
+}
+
+.column{
+	width: 240px;
+	height: 550px;
+	background-color: grey;
+	display: inline-block;
+	margin:10px;
+	vertical-align: top;
+}
+
+.column img {
+	width: 240px;
+	height: auto;
+	margin: 0px;
+}
+
+.columntext {
+	
+	height: 180px;
+}
+
+.icons {
+	margin:10px;
+}
+.icons img{
+	width: 40px;
+	height: auto;
+}
+
+.button{
+	text-align: center;
+	color: white;
+	background-color: darkgreen;
+	border-radius: 10px;
+	width: 120px;
+	margin-left: 60px;
+}
+
+#footer{
+	width: auto;
+	height: auto;
+	text-align: center;
+
+
+
+}
+
+#footer img{
+	width: auto;
+	height: 20px;
+}
+

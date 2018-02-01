@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Card</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="input">
+			<form id="form" action="process.php" method="post">
+				<label for="first_name">First Name</label>
+				<input type="text" id="first_name" name="first_name"><br/>
+				<label for="last_name">Last Name</label>
+				<input type="text" id="last_name" name="last_name">
+			
+			<h4>Description</h4>
+			
+				<textarea name="description" id="description" placeholder="Enter Description"></textarea>
+				<br/>
+				<input type="submit" value="Add User">
+			</form>
+		</div>
+		<div id="output">	
+			<!-- <div class="card">
+				<h2>Shit Head</h2>
+				<p>Click for Description!</p>
+			</div> -->
+		</div>
+	</div>
+</body>
+</html>

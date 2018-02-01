@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*{
+    margin: auto;
+    padding: 0px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#wrapper{
+	width: 1000px;
+	/*padding: 10px;*/
+	height: auto;
+	background-color: pink;
+	padding-top:50px
+
+}
+
+img{
+	margin: 13px;
+	width: 220px;
+}
+
+button{
+	display: block;
+	font-size: 25px;
+	margin: auto;
+	margin-top: 25px;
+}

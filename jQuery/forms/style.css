@@ -1,0 +1,27 @@
+
+
+table{
+	border: 2px solid black;
+	margin-bottom: 30px;
+}
+
+th{
+	padding-right: 25px;
+}
+
+form{
+	margin: auto;
+}
+h1{
+	display: inline-block;
+	border-bottom: 2px solid black;
+	padding-right: 130px;
+	margin-bottom: 20px;
+}
+
+label{
+	display: inline-block;
+	text-align: right;
+	width:125px;
+}
+

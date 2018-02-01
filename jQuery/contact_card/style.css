@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*{
+    margin: auto;
+    padding: 0px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#wrapper{
+	width: 1000px;
+	/*padding: 10px;*/
+	height: auto;
+	background-color: pink;
+	padding-top:50px
+	margin: auto;
+	height: 1200px;
+
+
+}
+
+#input{
+	display: inline-block;
+	width: 495px;
+}
+
+
+#output{
+	display: inline-block;
+	width: 495px;	
+	vertical-align: top;
+	text-align: center;
+}
+
+#form{
+	padding: 30px;
+}
+
+input[type="text"]{
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+input[type="submit"]{
+	margin-left: 90px;
+	font-size: 20px;
+}
+label{
+	font-size: 20px;
+}
+
+h4{
+	margin-left: 90px;
+}
+
+textarea{
+	margin-left: 90px;
+	width: 230px;
+	height: 200px;
+	resize: none;
+
+}
+
+.card{
+	display: block;
+	margin: auto;;
+	line-height: 50px;
+	border: 2px solid black;
+	height: 120px;
+
+
+}
